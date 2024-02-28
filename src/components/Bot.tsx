@@ -729,7 +729,6 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
 
   return (
     <>
-    
       <div
         ref={botContainer}
         class={'relative flex w-full h-full text-base overflow-hidden bg-cover bg-center flex-col items-center chatbot-container ' + props.class}
@@ -737,7 +736,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       >
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
         {isDragActive() && (
           <div
             class="absolute top-0 left-0 bottom-0 right-0 w-full h-full z-50"
