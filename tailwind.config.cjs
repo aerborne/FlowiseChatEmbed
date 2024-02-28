@@ -44,7 +44,11 @@ module.exports = {
             animation: {
                 'fade-in': 'fade-in 0.3s ease-out'
             }
-        }
+        },
+        fontFamily: {
+            sans: ['Roobert', 'sans-serif'],
+            serif: ['Roobert', 'serif'],
+        },
     },
     plugins: [
       require('@tailwindcss/typography')

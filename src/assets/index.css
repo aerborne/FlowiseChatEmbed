@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('./fonts/stylesheet.css');
+
+* {
+  font-family: 'Roobert';
+}
 
 :host {
   --chatbot-container-bg-image: none;
