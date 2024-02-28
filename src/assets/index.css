@@ -3,8 +3,8 @@
 @tailwind utilities;
 @import url('./fonts/stylesheet.css');
 
-* {
-  font-family: 'Roobert';
+.chatbot-container {
+  font-family: 'Inter', sans-serif !important;
 }
 
 :host {
